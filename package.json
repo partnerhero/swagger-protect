@@ -11,9 +11,7 @@
     "build": "tsc -p tsconfig.build.json",
     "build:watch": "tsc -w -p tsconfig.build.json",
     "build:watch:express": "rm -rf ./samples/express/node_modules/@femike/swagger-protect/dist && tsc -w -p tsconfig.hot.express.json",
-    "build:watch:fastify": "rm -rf ./samples/fastify/node_modules/@femike/swagger-protect/dist && tsc -w -p tsconfig.hot.fastify.json",
     "build:watch:nest-express": "rm -rf ./samples/nest-express/node_modules/@femike/swagger-protect/dist && tsc -w -p tsconfig.hot.nest-express.json",
-    "build:watch:nest-fastify": "rm -rf ./samples/nest-fastify/node_modules/@femike/swagger-protect/dist && tsc -w -p tsconfig.hot.nest-fastify.json",
     "compodoc": "compodoc -p tsconfig.build.json -s"
   },
   "repository": {
@@ -25,7 +23,6 @@
     "swagger",
     "protect",
     "guard",
-    "fastify",
     "ui",
     "nestjs",
     "nest",
